@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "malaria-insights"
+version = "0.1.0"
+description = "LLM-assisted, verifiable analysis of sub-county malaria indicators for Kenyan programme decision-makers"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Bulinda Major Vincent" }]
+dependencies = ["pandas>=1.5"]
+
+[project.optional-dependencies]
+charts = ["matplotlib>=3.5"]
+
+[project.scripts]
+malaria-insights = "malaria_insights.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

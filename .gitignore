@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+reports/
+.env
+# Keep real programme data out of the public repository
+data/*.csv
+!data/README.md
