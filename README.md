@@ -38,7 +38,7 @@ flowchart LR
 ## Quick start
 
 ```bash
-git clone https://github.com/<      git clone https://github.com/vbulinda/kenya-malaria-insights.git/<vbulinda>/kenya-malaria-insights.git>/kenya-malaria-insights.git
+git clone https://github.com/vbulinda/kenya-malaria-insights.git
 cd kenya-malaria-insights
 pip install -e ".[charts]"
 
