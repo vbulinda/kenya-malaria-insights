@@ -1,4 +1,5 @@
 # Kenya Malaria Insights
+[![tests](https://github.com/vbulinda/kenya-malaria-insights/actions/workflows/tests.yml/badge.svg)](https://github.com/vbulinda/kenya-malaria-insights/actions/workflows/tests.yml)
 
 **LLM-assisted, verifiable analysis of sub-county malaria indicators for county and national malaria programme decision-makers.**
 
@@ -37,7 +38,7 @@ flowchart LR
 ## Quick start
 
 ```bash
-git clone https://github.com/<your-username>/kenya-malaria-insights.git
+git clone https://github.com/<vbulinda>/kenya-malaria-insights.git
 cd kenya-malaria-insights
 pip install -e ".[charts]"
 
